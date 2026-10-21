@@ -1,0 +1,9 @@
+[application]
+name = "ikazuchi"
+default_platform = "desktop"
+
+[web.app]
+title = "IKAZUCHI 雷"
+
+[desktop]
+title = "IKAZUCHI 雷 — Manga & Manhwa Reader"

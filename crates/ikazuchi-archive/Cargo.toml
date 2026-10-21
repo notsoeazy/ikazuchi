@@ -1,0 +1,10 @@
+[package]
+name = "ikazuchi-archive"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ikazuchi-core.workspace = true
+zip.workspace = true
+thiserror.workspace = true

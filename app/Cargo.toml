@@ -1,0 +1,23 @@
+[package]
+name = "ikazuchi-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "ikazuchi"
+path = "src/main.rs"
+
+[dependencies]
+ikazuchi-core.workspace = true
+ikazuchi-dex.workspace = true
+ikazuchi-db.workspace = true
+ikazuchi-sync.workspace = true
+ikazuchi-archive.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+# Dioxus UI (uncomment / enable desktop or mobile features when running `dx serve`)
+# dioxus = { version = "0.6", features = ["desktop", "router"] }
